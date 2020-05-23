@@ -1,0 +1,181 @@
+body {
+  width: 1280px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%!important
+}
+
+.color-white {
+  color: #fff!important
+}
+
+.container {
+  font-family: sans-serif;
+  width: 1920px;
+  border: 1px solid black
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+.main-header {
+  background-color: #445060;
+  padding: 50px;
+  box-sizing: border-box
+}
+
+.main-header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both
+}
+
+.main-header-wrapper ul {
+  list-style: none;
+  margin: 0;
+  position: relative
+}
+
+.main-header-wrapper ul li {
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+.main-header-wrapper ul li:before {
+  content: "✓";
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 5px
+}
+
+.about-product{
+    height: 345px;
+}
+
+.padding-50{
+    padding: 50px;
+}
+
+.product-text {
+    clear: both;
+    width: 653px;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+    color: #333333;
+
+}
+
+.product-img {
+    background-color: #445161;
+}
+
+.dignity {
+    clear: both;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color: #445161;
+}
+
+.dignity-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dignity-list figure {
+    margin-left: 23px;
+}
+
+.dignity-figcaption {
+    width: 526px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.screenshots {
+  padding: 50px 50px 20px 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.screenshots-wrapper figure {
+  width: 580px
+}
+
+.figure-img {
+  display: block;
+  width: 200px;
+  height: 150px;
+  background-color: #445161;
+}
+
+.img-description {
+    font-family: Arial;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #445161;
+}
+
+.screenshots-figure-caption {
+  width: 359px;
+}
+
+.reviews {
+    background-color: #F5F5F5;
+}
+
+.img-author{
+    display: block;
+    border-radius: 50%;
+    background-color: #445161;
+}
+
+.quote {
+    width: 483px;
+    background-color: #E1E1E1;
+}
+
+blockquote {
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    color: #333333;
+}
+
+cite {
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    color: #989898;
+}
